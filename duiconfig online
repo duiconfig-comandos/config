@@ -1,0 +1,9 @@
+client.user.setActivity(`The Flash`, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+client.user.setActivity(`Meu Ermão É O: DuiConfig(Musicas)!!!`, {type: "LISTENING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+client.user.setActivity(`${client.users.size}, Muita Gente!!!`, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+client.user.setActivity(`Minha Comida Favorita, É Arroz, fejão E Puré!!!`, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindoclient.user.setActivity("`, {type: "LISTENING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+client.user.setActivity(`Em Manutenção!!!`, {type: "PLAYING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+client.user.setActivity(`Meu Prefix: !! | Use !!help`, {type: "LISTENING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+client.user.setActivity(`Apenas Um Garoto De 18 Anos Tentando Transformar O Mundo Em Um Lugar Melhor!!! `, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+client.user.setActivity(`${client.guilds.size} Servidores Diferentes Espalhados Pelo Mundo Todo!!!`, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+client.user.setActivity(`${client.users.size} Pessoas Diferente Espalhadas No Mundo Inteiro!!!`, {type: "LISTENING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
