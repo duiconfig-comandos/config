@@ -1,9 +1,46 @@
-client.user.setActivity(`The Flash`, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
-client.user.setActivity(`Meu Ermão É O: DuiConfig(Musicas)!!!`, {type: "LISTENING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
-client.user.setActivity(`${client.users.size}, Muita Gente!!!`, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
-client.user.setActivity(`Minha Comida Favorita, É Arroz, fejão E Puré!!!`, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindoclient.user.setActivity("`, {type: "LISTENING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
-client.user.setActivity(`Em Manutenção!!!`, {type: "PLAYING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
-client.user.setActivity(`Meu Prefix: !! | Use !!help`, {type: "LISTENING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
-client.user.setActivity(`Apenas Um Garoto De 18 Anos Tentando Transformar O Mundo Em Um Lugar Melhor!!! `, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
-client.user.setActivity(`${client.guilds.size} Servidores Diferentes Espalhados Pelo Mundo Todo!!!`, {type: "WATCHING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
-client.user.setActivity(`${client.users.size} Pessoas Diferente Espalhadas No Mundo Inteiro!!!`, {type: "LISTENING"}); //PLAYING = jogando, LISTENING = ouvindo, WATCHING = assistindo
+
+  //STREAMING = TRANSMITINDO
+  //LISTENING = OUVINDO
+  //PLAYING = JOGANDO
+  //WATCHING = ASSISTINDO
+  //{name: ``, type: '', url: 'https://www.twitch.tv/jefersonvitorp'},
+  //{name: ``, type: ''},
+
+  
+
+  let status = [ 
+    {name: `😊Meu Prefix: !! | Use !!ajuda😊`, type: 'WATCHING'},
+    {name: `😋Minha Comida Favorita É: Pudim, Pastel E Chocolate!!!😋`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
+    {name: `😚${client.guilds.size} Servidores Diferentes Espalhados Pelo Mundo Todo!!!😚`, type: 'WATCHING'},
+    {name: `😏Apenas Um Garoto De 18 Anos Tentando Transformar O Mundo Em Um Lugar Melhor!!!😏`, type: 'WATCHING'},
+    {name: `😚${client.users.size} Pessoas Diferente Espalhadas No Mundo Inteiro!!!😚`, type: 'LISTENING'},
+    {name: `🤗Meu Ermão É O: DuiConfig(Musicas)!!!🤗`, type: 'WATCHING'},
+    {name: `😫Estou Em fase Beta!!!😫`, type: 'LISTENING'},
+    {name: `✔Siga Meu Pai No Twitch!!!✔`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
+    {name: `😏Para ${client.guilds.size} Servidores!!!😏`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
+    {name: `😏Para ${client.users.size} Pessoas!!!😏`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
+    {name: `😉Entre Para O Meu Servidor, Basta Vc Dar O Comando (!!convite), Que Irá Aparacer O Meu Servidor!!!😉`, type: 'WATCHING'},
+    {name: `◈🏆Top's┃Rewards🏆◈`, type: 'WATCHING'},
+    {name: `🏃‍The Flash!!!🏃‍`, type: 'WATCHING'},
+    {name: `🤛Meu Amigo: @หσтcнgคмεя#1697 !!!🤛`, type: 'LISTENING'},
+    {name: `👑Meu Criador: @!• 🇾 🇦 🇸 🇺 🇲 🇮 🇳 🇦 🇸 🇦 🇮 • !#1958  !!!👑`, type: 'LISTENING'},
+    {name: `🤛Meu Amigo: @LxhtzPvP#5726 !!!🤛`, type: 'LISTENING'},
+    {name: `🤟Meu Site: https://duiconfig-br.glitch.me 🤟`, type: 'WATCHING'},
+    {name: `😘Nunca Desista Dos Seus Sonhos, Um Dia Você Vai Conseguir!!!😘`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
+    {name: `😘Siga Os Seus Sonhos, Eu Acredito Em Você!!!😘`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
+    {name: `📳O Celular Na Parede!!!📳`, type: 'PLAYING'},
+    {name: `🤛Meu Amigo: @xVituh#8699 !!!🤛`, type: 'LISTENING'},
+    {name: `😥+💵=😋🍝 (help me plz) https://donatebot.io/checkout/550057159774437386 !!!`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
+    {name: `🎇Hospedado 24hs!!!🎇`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'}
+    ];    
+  
+    function setStatus() {
+    let randomStatus = status[Math.floor(Math.random() * status.length)];
+    client.user.setPresence({game: randomStatus});
+}
+
+setStatus();
+setInterval(() => setStatus(), 8500);
+https://www.google.com.br/search?client=opera&q=banners+de+roblox&sourceid=opera&ie=UTF-8&oe=UTF-8
+
+moment.locale("pt-BR");
