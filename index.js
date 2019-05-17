@@ -43,8 +43,8 @@ client.on("ready", () => {
     {name: `😥+💵=😋🍝 (help me plz) https://donatebot.io/checkout/550057159774437386 !!!`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
     {name: `🎇Hospedado 24hs!!!🎇`, type: 'STREAMING', url: 'https://www.twitch.tv/jefersonvitorp'},
     { name: `😱Se Eu Ficar Off, Quer Dizer Que A Minha Host Caiu Ou A Net Não Aguentou: ${client.guilds.size} Servidores E  ${client.users.size} Pessoas!!!😱`, type: 'LISTENING' },
-    {name: `!ajuda | ${client.guilds.size} Servers!`, type: 'PLAYING'},
-    { name: `!help | ${client.guilds.size} Servers!`, type: 'PLAYING' }
+    {name: `!!ajuda | ${client.guilds.size} Servers!`, type: 'PLAYING'},
+    { name: `!!help | ${client.guilds.size} Servers!`, type: 'PLAYING' }
 
   ];    
 
@@ -277,8 +277,9 @@ if(comando === "bot-info"){
   if (comando === "serverinfo") {
     exports.run = (bot, message, args) => { }
       let gAvatar = message.guild.iconURL;
-      let embed = new Discord.RichEmbed()
-
+    let embed = new Discord.RichEmbed()
+        
+        .setTimestamp()
         .setDescription("***__``Informação Do Servidor:``__***")
         .setColor("RANDOM")
         .setThumbnail(gAvatar)
