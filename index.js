@@ -275,7 +275,7 @@ if(comando === "bot-info"){
 
 
   if (comando === "serverinfo") {
-    exports.run = (bot, message, args) => {
+    exports.run = (bot, message, args) => { }
       let gAvatar = message.guild.iconURL;
       let embed = new Discord.RichEmbed()
 
@@ -294,7 +294,7 @@ if(comando === "bot-info"){
         .setFooter(`•Comando solicitado por: ${message.author.username}`);
 
       return message.channel.send(embed);
-    }
+    
   }
 
 
